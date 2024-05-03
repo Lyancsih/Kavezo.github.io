@@ -2,6 +2,7 @@ body{
     background-color: pink;
     margin: 0px;
     padding: 0px;
+    
 }
 
 .fejlec{
@@ -9,8 +10,19 @@ body{
     padding-top: 0.2px;
     padding-bottom: 0.2px;
     
+    
 }
 .cim{
     text-align: left;
 
+}
+.menu{
+    display: flex;
+    float: right;
+    text-align: center;
+}
+.menu div{
+    margin: 5px;
+    border: 1px solid black;
+    
 }
