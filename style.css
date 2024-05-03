@@ -6,7 +6,11 @@ body{
 
 .fejlec{
     background-color: gray;
-    text-align: center;
-    padding-top: 15px;
+    padding-top: 0.2px;
+    padding-bottom: 0.2px;
     
+}
+.cim{
+    text-align: left;
+
 }
