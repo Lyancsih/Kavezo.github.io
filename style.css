@@ -1,16 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
     background-color: pink;
     margin: 0px;
     padding: 0px;
     
 }
-
+/*Menu*/
 .topnav {
     background-image: url(pics/coffee-beans-7126154_1920.jpg);
     overflow: hidden;
     height: 80px;
+
   }
-  
+
   .topnav a {
     float: right;
     color: navajowhite;
@@ -27,12 +32,46 @@ body{
     color: black;
     border-radius: 10%;
   }
+
   h1{
     display: inline;
     color: navajowhite;
     font-size: 70px;
     margin-top: 15px;
   }
+
   .active {
     color: white  ;
+  }
+ 
+  /*Vege*/
+
+  #kavefajtak{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .oszlop {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .sor::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  img{
+    width: 50%;
   }
