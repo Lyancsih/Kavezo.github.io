@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <title>Lucky Kávézó</title>
 </head>
 <body>
     <!--Fejléc-->
 
-    <div class="topnav">
-        <h1>Lucky Kávézó</h1>
-        <a href="">Nyitvatartás/Elérhetőség</a>
-        <a href="">Rólunk</a>
-        <a href="">Sütemények</a>
-        <a href="">Kávéfajták</a>
-      </div>
+    <header>
+        <h1 class="logo">Lucky Kávézó</h1>
+        <ul class="nav">
+            <li class="navlink"><a href="#">Kávéfajták</a></li>
+            <li class="navlink"><a href="#">Sütemények</a></li>
+            <li class="navlink"><a href="#">Rólunk</a></li>
+            <li class="navlink"><a href="#">Nyitvatartás/Elérhetőség</a></li>
+        </ul>
+        <div class="burger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <!--vége-->
     <div id="kavefajtak" class="sor">
         <div class="oszlop"><img src="pics/images.png" alt=""></div>
         <div class="oszlop"><img src="pics/images.png" alt=""></div>
@@ -25,4 +32,5 @@
         <div class="oszlop"><img src="pics/images.png" alt=""></div>
     </div>
 </body>
+<script src="main.js"></script>
 </html>
