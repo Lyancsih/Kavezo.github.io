@@ -8,25 +8,31 @@ body{
 .topnav {
     background-image: url(pics/coffee-beans-7126154_1920.jpg);
     overflow: hidden;
+    height: 80px;
   }
   
   .topnav a {
     float: right;
-    color: #f2f2f2;
+    color: navajowhite;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: auto;
   }
   
   .topnav a:hover {
     background-color: #ddd;
     color: black;
+    border-radius: 10%;
   }
-  
-  
-  
   h1{
     display: inline;
+    color: navajowhite;
+    font-size: 70px;
+    margin-top: 15px;
+  }
+  .active {
+    color: white  ;
   }
