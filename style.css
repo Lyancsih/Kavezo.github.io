@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: pink;
+    background-color: black;
     margin: 0px;
     padding: 0px;
     
@@ -50,6 +50,18 @@ header {
   color: black;
   background-color: white;
   border-radius: 10%;
+}
+.kozep{
+  background-color: rgb(255, 192, 203);
+  margin-top: 50px;
+  padding: 10px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.szoveg{
+  float: right;
 }
 
 @media screen and (max-width: 1200px) {
@@ -100,18 +112,7 @@ header {
     clear: both;
     display: table;
   }
-  .kozep{
-    background-color: #51557e;
-    margin-top: 50px;
-    padding: 10px;
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
-  .szoveg{
-    float: right;
-  }
+  
   
   @media screen and (max-width: 500px) {
     .column {
