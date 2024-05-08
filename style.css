@@ -1,10 +1,16 @@
 body {
   font-family: Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(caffeine-1866758_1920.jpg);
+
 }
 .header {
   background-image: url(pics/header.jpg);
   color: #fff;
   padding: 60px 0;
+  
 }
 .footer {
   background-color: #563d7c;
@@ -15,6 +21,65 @@ img{
   width: 200px;
   height: 200px;
 }
+.vonal{
+  margin-top:10px;
+  margin-bottom:10px;
+  border-bottom: 10px solid black;
+  
+}
+
+#kave{
+ text-align: center;
+}
+.hater{
+  background-color: rgb(255, 192, 203,0.5)
+}
 td{
-  border: black solid 1px;
+  width: 40%;
+  background-color: rgb(255, 192, 203,0.5);
+}
+.kep{
+  
+  display: flex;
+  
+  background-color: rgb(255, 192, 203,0.5); 
+}
+#k1{
+  margin-left: 6%;
+  margin-right: 25%;
+  
+}
+#k2{
+  margin-left: 30%;
+  margin-right: 25%;
+  
+}
+#k3{
+  margin-left: 18%;
+  margin-right: 25%;
+}
+#k4{
+  margin-left: 5%;
+  margin-right: 54%;
+}
+.szoveg{
+  margin-top: 26%;
+  margin-bottom: 25%;
+  
+}
+.n{
+ font-size: 200%;
+}
+
+#lin{
+  text-decoration: none;
+  color: black;
+}
+#link{
+  text-decoration: none;
+  color: black;
+}
+#linh{
+  text-decoration: none;
+  color: black;
 }
