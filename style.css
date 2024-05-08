@@ -15,3 +15,6 @@ img{
   width: 200px;
   height: 200px;
 }
+td{
+  border: black solid 1px;
+}
