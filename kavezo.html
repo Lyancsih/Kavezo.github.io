@@ -1,35 +1,70 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <title>Lucky Kávézó</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Kávéház</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <!--Fejléc-->
 
-    <header>
-        <h1 class="logo">Lucky Kávézó</h1>
-        <ul class="nav">
-            <li class="navlink"><a href="Kávéfajták.html">Kávéfajták</a></li>
-            <li class="navlink"><a href="Sütemények.html">Sütemények</a></li>
-            <li class="navlink"><a href="Rólunk.html">Rólunk</a></li>
-            <li class="navlink"><a href="Nyitvatartás.html">Nyitvatartás/Elérhetőség</a></li>
-        </ul>
-        <div class="burger">
-            <i class="fas fa-bars"></i>
-        </div>
-    </header>
-    <!--vége-->
-    <div class="kozep">
-        <div class="ball"><img src="pics/Lucky Kávézó.jpg" alt="">
-        <div class="szoveg">Az ország legjobb kávézoja csak 2024.05.07-töl 2024.05.14-ig 50%-os kedvezményel</div>
-
-        </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Kávézó neve</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Kezdőlap</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kínálat</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Rólunk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kapcsolat</a>
+        </li>
+      </ul>
     </div>
-    
+  </div>
+</nav>
+
+<div class="header text-center">
+  <h1>Üdvözöljük a Kávézónkban!</h1>
+  <p>Jöjjön be hozzánk egy finom kávéra és egy kellemes időtöltésre!</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Kínálatunk</h2>
+      <p>Ide írhatod a kínálatot, különféle kávék, sütemények, italok.</p>
+    </div>
+    <div class="col-md-4">
+      <h2>Rólunk</h2>
+      <p>Írj pár mondatot a kávézóról, történetéről, küldetéséről.</p>
+    </div>
+    <div class="col-md-4">
+      <h2>Elérhetőség</h2>
+      <p>Itt tudják megtalálni és kapcsolatba lépni velünk.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer text-center">
+  <p>&copy; 2024 Kávézó neve. Minden jog fenntartva.</p>
+</div>
+
+<!-- Bootstrap JS és jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
-<script src="main.js"></script>
 </html>

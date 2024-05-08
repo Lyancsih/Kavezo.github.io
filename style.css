@@ -1,125 +1,13 @@
-* {
-  box-sizing: border-box;
+body {
+  font-family: Arial, sans-serif;
 }
-
-body{
-    background-color: black;
-    margin: 0px;
-    padding: 0px;
-    
-}
-/*Menu*/
-header {
-  width: 100%;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.header {
   background-image: url(pics/header.jpg);
-  color: #ccc;
+  color: #fff;
+  padding: 60px 0;
 }
-
-.logo {
-  letter-spacing: 3px;
-  color: white;
-  font-size: 40px;
+.footer {
+  background-color: #563d7c;
+  color: #fff;
+  padding: 20px 0;
 }
-
-.nav {
-  display: flex;
-  justify-content: space-around;
-  width: 30%;
-}
-
-.navlink {
-  list-style: none;
-  margin: 10px;
-}
-
-.navlink a {
-  color: #ccc;
-  text-decoration: none;
-  font-size: 1.2em;
-}
-
-.burger {
-  font-size: 1.2em;
-  display: none;
-}
-.nav a:hover{
-  color: black;
-  background-color: white;
-  border-radius: 10%;
-}
-.kozep{
-  background-color: rgb(255, 192, 203);
-  margin-top: 50px;
-  padding: 10px;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-.szoveg{
-  float: right;
-}
-
-@media screen and (max-width: 1200px) {
-  .burger {
-      display: block;
-  }
-  .nav {
-      display: none;
-      margin: 0;
-      background: #343434;
-      position: absolute;
-      right: -40%;
-      top: 70px;
-      width: 40%;
-      height: calc(100% - 70px);
-      flex-direction: column;
-      justify-content: space-around;
-      padding: 0;
-      transition: all 400ms;
-  }
-  .navlink {
-      text-align: center;
-  }
-
-  .nav-active {
-      
-      right: 0;
-  }
-}
-  /*Vege*/
-
-  #kavefajtak{
-    border: 1px solid black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    width: 80%;
-  }
-
-  .oszlop {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-
-  .sor::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  
-  @media screen and (max-width: 500px) {
-    .column {
-      width: 100%;
-    }
-  }
-
-  img{
-    width: 50%;
-  }
