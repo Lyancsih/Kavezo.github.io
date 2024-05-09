@@ -1,5 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    
+    font-family: "Poetsen One";
+    height: 100vh;
+    
 }
 
 .container {
@@ -7,6 +10,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    
 }
 
 textarea {
@@ -33,4 +37,27 @@ button:hover {
     padding: 10px;
     margin-bottom: 10px;
     text-align: left;
+    background-color: rgb(255, 192, 203,0.5);
+}
+h1{
+    background-color: rgb(255, 192, 203,0.5);
+}
+.opinion {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative; /* A relatív pozíció beállítása az abszolút pozíciózás miatt */
+}
+
+.opinion .deleteButton {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
 }
