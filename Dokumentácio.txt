@@ -1,0 +1,44 @@
+Szoban elterveztük hogy ki milyen feladatot csinál 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-Laci dekorácio,lap megtervezése,dokumentácio leirása,képekkeresése
+-Jani html alapok lehelyezése,weblap reszponzivá tétele,dokumentácio javitása kiegészitése,képekkeresése
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Weblap(kavezo.html)
+
+1# Fejléc elkészitése
+
+2# Lábléc elkészitése
+
+3# Menük megtervezése és elrendezése Bootstrap segitségével
+
+4# main.js elkészitése(Kisképernyön menü elrejtése)
+
+4# 3 Kép 3 rövid szövegel ami link ként üzemel
+
+5# 4 db kávés kép közé egy rövid szöveg és 20 kávé és árak el rendezése egy táblázatba(A KÉPEK SZÁNDÉKOSAN NEM SZABÁLYOSAK-DEKORÁCIO (BELE EGYEZET JANI,LACI,LACI ANYA))
+
+6# 4 db sütemény kép közé egy rövid szöveg és 20 sütemény és árak el rendezése egy táblázatba(A KÉPEK SZÁNDÉKOSAN NEM SZABÁLYOSAK-DEKORÁCIO (BELE EGYEZET JANI,LACI,LACI ANYA))
+
+7# Ezek alá rövid szöveg a kávézorol 
+
+8# Nyitva tartás és egy kép elhelyezése
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Weblap(index.html)
+
+
+1# Menük megtervezése és elrendezése Bootstrap segitségével
+
+2# script.js 
+	-Szöveg betöltése(ha van)
+	-Irhato szöveg buborék
+	-Megjelenö szöveg
+	-Szöveg törése gombnyomásra
+	-Szöveg mentése html-be
+	-Szöveg betöltése(ha van)
