@@ -1,44 +1,44 @@
-Szoban elterveztük hogy ki milyen feladatot csinál 
+Szóban elterveztük hogy ki milyen feladatot csinál 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
--Laci dekorácio,lap megtervezése,dokumentácio leirása,képekkeresése
--Jani html alapok lehelyezése,weblap reszponzivá tétele,dokumentácio javitása kiegészitése,képekkeresése
+-Laci dekoráció, lap megtervezése, dokumentáció leirása, képek keresése
+-Jani html alapok lehelyezése, weblap reszponzivá tétele, dokumentáció javítása kiegészitése, képek keresése
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Weblap(kavezo.html)
 
-1# Fejléc elkészitése
+1# Fejléc elkészítése
 
-2# Lábléc elkészitése
+2# Lábléc elkészítése
 
-3# Menük megtervezése és elrendezése Bootstrap segitségével
+3# Menük megtervezése és elrendezése Bootstrap segítségével
 
 4# main.js elkészitése(Kisképernyön menü elrejtése)
 
-4# 3 Kép 3 rövid szövegel ami link ként üzemel
+4# 3 Kép 3 rövid szövegel ami linkként üzemel
 
-5# 4 db kávés kép közé egy rövid szöveg és 20 kávé és árak el rendezése egy táblázatba(A KÉPEK SZÁNDÉKOSAN NEM SZABÁLYOSAK-DEKORÁCIO (BELE EGYEZET JANI,LACI,LACI ANYA))
+5# 4 db kávés kép közé egy rövid szöveg és 20 kávé és árak elrendezése egy táblázatban (A KÉPEK SZÁNDÉKOSAN NEM SZABÁLYOSAK-DEKORÁCIÓ (BELE EGYEZET JANI,LACI,LACI ANYA))
 
-6# 4 db sütemény kép közé egy rövid szöveg és 20 sütemény és árak el rendezése egy táblázatba(A KÉPEK SZÁNDÉKOSAN NEM SZABÁLYOSAK-DEKORÁCIO (BELE EGYEZET JANI,LACI,LACI ANYA))
+6# 4 db sütemény kép közé egy rövid szöveg és 20 sütemény és árak elrendezése egy táblázatban (A KÉPEK SZÁNDÉKOSAN NEM SZABÁLYOSAK-DEKORÁCIÓ (BELE EGYEZET JANI,LACI,LACI ANYA))
 
-7# Ezek alá rövid szöveg a kávézorol 
+7# Ezek alá rövid szöveg a kávézóról 
 
-8# Nyitva tartás és egy kép elhelyezése
+8# Nyitvatartás és egy kép elhelyezése
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Weblap(index.html)
 
 
-1# Menük megtervezése és elrendezése Bootstrap segitségével
+1# Menük megtervezése és elrendezése Bootstrap segítségével
 
 2# script.js 
 	-Szöveg betöltése(ha van)
-	-Irhato szöveg buborék
-	-Megjelenö szöveg
-	-Szöveg törése gombnyomásra
-	-Szöveg mentése html-be
-	-Szöveg betöltése(ha van)
+	-Írhato szöveg buborék
+	-Megjelenó szöveg
+	-Szöveg törlése gombnyomásra
+	-Szöveg mentése html-ben
+	-Szöveg betöltése (ha van)

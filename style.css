@@ -6,7 +6,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(caffeine-1866758_1920.jpg);
+  background-image: url(pics/hatter/hatter.jpg);
 
 }
 .header {
@@ -16,19 +16,23 @@ body {
   
 }
 .footer {
-  background-color: #563d7c;
+  background-color: rgb(111, 78, 55, 75%);
   color: #fff;
   padding: 20px 0;
 }
 img{
   width: 200px;
   height: 200px;
+  border-radius: 5%;
 }
 .vonal{
   margin-top:10px;
   margin-bottom:10px;
   border-bottom: 10px solid black;
   
+}
+.kozep{
+  text-align: center;
 }
 
 #kave{
