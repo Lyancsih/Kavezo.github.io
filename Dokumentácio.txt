@@ -3,7 +3,7 @@ Szóban elterveztük hogy ki milyen feladatot csinál
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
--Laci dekoráció, lap megtervezése, dokumentáció leirása, képek keresése
+-Laci dekoráció, lap megtervezése, dokumentáció leirása, képek keresése, SEO
 -Jani html alapok lehelyezése, weblap reszponzivá tétele, dokumentáció javítása kiegészitése, képek keresése
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
