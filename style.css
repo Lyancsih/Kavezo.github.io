@@ -48,6 +48,7 @@ td{
   
   background-color: rgb(255, 192, 203,0.5); 
   
+  
 }
 .haterk{
   background-color: rgb(255, 192, 203,0.5);
@@ -56,6 +57,7 @@ td{
 #k1{
   margin-left: 6%;
   margin-right: 25%;
+
   
 }
 #k2{
@@ -99,3 +101,31 @@ td{
 
 }
 
+
+@media only screen and (max-width:1000px){
+  .img{
+    position: relative;
+    height: 50%;
+    margin-left: 25%;
+
+  }
+  .tun{
+    display: none;
+  }
+  #k1{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #k2{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #k3{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #k4{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
