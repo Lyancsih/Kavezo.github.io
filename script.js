@@ -29,7 +29,9 @@ function addOpinion(opinionText) {
     let deleteButton = document.createElement('button');
     deleteButton.innerText = 'Törlés';
     deleteButton.classList.add('deleteButton');
-    deleteButton.style.marginLeft = '1000px'; // Stílus attribútum hozzáadása a jobb eltoláshoz
+    deleteButton.style.marginLeft = 'auto'; // Stílus attribútum hozzáadása a jobb eltoláshoz
+    deleteButton.style.marginTop = '10px';
+    deleteButton.style.marginBottom = '10px';
     deleteButton.addEventListener('click', function() {
         opinionContainer.remove();
         saveOpinions();
